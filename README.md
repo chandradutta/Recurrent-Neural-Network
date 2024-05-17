@@ -19,10 +19,6 @@ To run the code, you need the following libraries:
 ## Libraries Used
 - Wandb: Used for experiment tracking and visualization.
 - PyTorch: Deep learning framework for building and training the CNN model.
-- torchvision: Provides datasets, models, and transformations for computer vision tasks.
-- scikit-learn: Used for splitting the dataset into training and validation sets.
-- matplotlib: Library for creating plots and visualizations.
-- PIL: Python Imaging Library, used for image processing.
 - numpy: Library for numerical computing.
 ## Dataset
 Prepare the dataset and create three files containing the data -- train.csv, test.csv, validation.csv.
