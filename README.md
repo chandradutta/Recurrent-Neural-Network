@@ -49,7 +49,7 @@ The train_without_attention.py script implements a basic Seq2Seq model consistin
 The train_with_attention.py script implements a Seq2Seq model with an attention mechanism. This model allows the decoder to focus on different parts of the input sequence at each step, improving the performance for longer sequences.
 ##  Link to Report
 
-The wandb report is available [here]([https://wandb.ai/cs23m021/DL_Assignment_2/reports/CS6910-Assignment-2--Vmlldzo3NTA4NjE5](https://wandb.ai/cs23m021/DL_Assignment_3/reports/Assignment-3--Vmlldzo3OTgxOTI4)).
+The wandb report is available [here](https://wandb.ai/cs23m021/DL_Assignment_3/reports/Assignment-3--Vmlldzo3OTgxOTI4).
 
 ##  Acknowledgements
 
