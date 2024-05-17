@@ -45,18 +45,6 @@ Prepare the dataset and create three files containing the data -- train.csv, tes
 -val_path, --val_path           : (required) Path to the validation data CSV file.
 ```
 
-### Example
-#### To train the model without attention:
-```
-python train_without_attention.py -wp my_project -e 20 -lr 0.001 -b 32 -embd_dim 256 -hid_neur 256 -num_layers 2 -cell LSTM -do 0.3 -opt adam -train_path data/train.csv -test_path data/test.csv -val_path data/val.csv
-
-```
-#### To train the model with attention:
-```
-python train_with_attention.py -wp my_project -e 20 -lr 0.001 -b 32 -embd_dim 256 -hid_neur 256 -num_layers 2 -cell LSTM -do 0.3 -opt adam -train_path data/train.csv -test_path data/test.csv -val_path data/val.csv
-
-```
-
 ## Model Architecture
 ### Without Attention
 The train_without_attention.py script implements a basic Seq2Seq model consisting of an encoder and a decoder. The encoder encodes the input sequence into a context vector, which is then used by the decoder to generate the output sequence.
